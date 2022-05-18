@@ -1,7 +1,7 @@
 %define module	sphinx_rtd_theme
 
 Name:		python-%{module}
-Version:	0.4.3
+Version:	1.0.0
 Release:	1
 Summary:	Sphinx theme for readthedocs.org
 Group:		Development/Python
