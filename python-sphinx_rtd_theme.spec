@@ -8,6 +8,7 @@ Group:		Development/Python
 License:	MIT
 URL:		https://github.com/snide/sphinx_rtd_theme
 Source0:	https://pypi.io/packages/source/s/%{module}/%{module}-%{version}.tar.gz
+Patch0:		sphinx_rtd_theme-1.0.0-docutils-0.18.patch
 BuildArch:	noarch
 BuildRequires:	pkgconfig(python)
 BuildRequires:	python3dist(setuptools)
@@ -19,7 +20,7 @@ can be ignored if you're just trying to use it on your project outside
 of that site.
 
 %prep
-%setup -q -n %{module}-%{version}
+%autosetup -p1 -n %{module}-%{version}
 
 # Remove bundled egg-info
 rm -rf %{module}.egg-info
