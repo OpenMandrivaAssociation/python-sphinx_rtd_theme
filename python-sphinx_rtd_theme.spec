@@ -10,7 +10,7 @@ URL:		https://github.com/snide/sphinx_rtd_theme
 Source0:	https://pypi.io/packages/source/s/%{module}/%{module}-%{version}.tar.gz
 Patch0:		sphinx_rtd_theme-1.0.0-docutils-0.18.patch
 BuildArch:	noarch
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python3dist(setuptools)
 
 %description
