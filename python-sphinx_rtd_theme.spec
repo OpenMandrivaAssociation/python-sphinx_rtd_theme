@@ -2,7 +2,7 @@
 
 Name:		python-%{module}
 Version:	1.0.0
-Release:	2
+Release:	3
 Summary:	Sphinx theme for readthedocs.org
 Group:		Development/Python
 License:	MIT
