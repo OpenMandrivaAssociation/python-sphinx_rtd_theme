@@ -12,6 +12,9 @@ BuildArch:	noarch
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(setuptools)
 
+%patchlist
+sphinx_rtd_theme-docutils-0.21.patch
+
 %description
 This is a prototype mobile-friendly sphinx theme for readthedocs.org.
 It's currently in development and includes some rtd variable checks that

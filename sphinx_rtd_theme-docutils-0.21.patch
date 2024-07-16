@@ -1,0 +1,12 @@
+diff -up sphinx_rtd_theme-2.0.0/setup.cfg.omv~ sphinx_rtd_theme-2.0.0/setup.cfg
+--- sphinx_rtd_theme-2.0.0/setup.cfg.omv~	2024-07-16 14:28:24.589439382 +0200
++++ sphinx_rtd_theme-2.0.0/setup.cfg	2024-07-16 14:28:31.701517668 +0200
+@@ -46,7 +46,7 @@ packages = sphinx_rtd_theme
+ python_requires = >=3.6
+ install_requires = 
+ 	sphinx >=5,<8
+-	docutils <0.21
++	docutils <0.22
+ 	sphinxcontrib-jquery >=4,<5
+ tests_require = 
+ 	pytest
