@@ -1,8 +1,8 @@
 %define module	sphinx_rtd_theme
 
 Name:		python-%{module}
-Version:	2.0.0
-Release:	2
+Version:	3.0.2
+Release:	1
 Summary:	Sphinx theme for readthedocs.org
 Group:		Development/Python
 License:	MIT
@@ -13,7 +13,7 @@ BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(setuptools)
 
 %patchlist
-sphinx_rtd_theme-docutils-0.21.patch
+sphinx_rtd_theme-docutils-0.22.patch
 
 %description
 This is a prototype mobile-friendly sphinx theme for readthedocs.org.
