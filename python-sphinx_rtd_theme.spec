@@ -2,7 +2,7 @@
 
 Name:		python-%{module}
 Version:	3.0.2
-Release:	2
+Release:	3
 Summary:	Sphinx theme for readthedocs.org
 Group:		Development/Python
 License:	MIT
@@ -14,6 +14,9 @@ BuildArch:	noarch
 BuildRequires:	pkgconfig(python)
 BuildRequires:	python%{pyver}dist(setuptools)
 
+# Renamed 2025-12-19 after 6.0
+%rename python-sphinx-rtd-theme
+
 %patchlist
 sphinx_rtd_theme-3.0.2-sphinx9.0-docutils0.22.patch
 
@@ -22,18 +25,6 @@ This is a prototype mobile-friendly sphinx theme for readthedocs.org.
 It's currently in development and includes some rtd variable checks that
 can be ignored if you're just trying to use it on your project outside
 of that site.
-
-%prep
-%autosetup -p1 -n %{module}-%{version}
-
-# Remove bundled egg-info
-rm -rf %{module}.egg-info
-
-%build
-%py_build
-
-%install
-%py_install
 
 %files
 %license LICENSE
