@@ -1,0 +1,23 @@
+diff -urN sphinx_rtd_theme-3.0.2/setup.cfg sphinx_rtd_theme-3.0.2-sphinx9/setup.cfg
+--- sphinx_rtd_theme-3.0.2/setup.cfg	2024-11-13 11:03:49.327329900 +0000
++++ sphinx_rtd_theme-3.0.2-sphinx9/setup.cfg	2025-12-18 22:16:39.137957056 +0000
+@@ -44,8 +44,8 @@
+ packages = sphinx_rtd_theme
+ python_requires = >=3.8
+ install_requires = 
+-	sphinx >=6,<9
+-	docutils >0.18,<0.22
++	sphinx >=6,<10
++	docutils >0.18,<0.23
+ 	sphinxcontrib-jquery >=4,<5
+ tests_require = 
+ 	pytest
+diff -urN sphinx_rtd_theme-3.0.2/sphinx_rtd_theme.egg-info/requires.txt sphinx_rtd_theme-3.0.2-sphinx9/sphinx_rtd_theme.egg-info/requires.txt
+--- sphinx_rtd_theme-3.0.2/sphinx_rtd_theme.egg-info/requires.txt	2024-11-13 11:03:49.000000000 +0000
++++ sphinx_rtd_theme-3.0.2-sphinx9/sphinx_rtd_theme.egg-info/requires.txt	2025-12-18 22:13:21.079769045 +0000
+@@ -1,4 +1,4 @@
+-sphinx<9,>=6
++sphinx<10,>=6
+ docutils<0.22,>0.18
+ sphinxcontrib-jquery<5,>=4
+ 

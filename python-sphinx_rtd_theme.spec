@@ -8,13 +8,14 @@ Group:		Development/Python
 License:	MIT
 URL:		https://github.com/snide/sphinx_rtd_theme
 Source0:	https://pypi.io/packages/source/s/%{module}/%{module}-%{version}.tar.gz
+
 BuildSystem:	python
 BuildArch:	noarch
 BuildRequires:	pkgconfig(python)
 BuildRequires:	python%{pyver}dist(setuptools)
 
 %patchlist
-sphinx_rtd_theme-docutils-0.22.patch
+sphinx_rtd_theme-3.0.2-sphinx9.0-docutils0.22.patch
 
 %description
 This is a prototype mobile-friendly sphinx theme for readthedocs.org.
