@@ -2,14 +2,15 @@
 
 Name:		python-%{module}
 Version:	3.0.2
-Release:	1
+Release:	2
 Summary:	Sphinx theme for readthedocs.org
 Group:		Development/Python
 License:	MIT
 URL:		https://github.com/snide/sphinx_rtd_theme
 Source0:	https://pypi.io/packages/source/s/%{module}/%{module}-%{version}.tar.gz
+BuildSystem:	python
 BuildArch:	noarch
-BuildRequires:	pkgconfig(python3)
+BuildRequires:	pkgconfig(python)
 BuildRequires:	python%{pyver}dist(setuptools)
 
 %patchlist
