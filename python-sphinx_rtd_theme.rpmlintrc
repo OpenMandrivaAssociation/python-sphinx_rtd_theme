@@ -1,0 +1,2 @@
+# result of using fdupes
+addFilter("W: cross-directory-hard-link")
