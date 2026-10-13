@@ -3,7 +3,7 @@
 Name:		python-sphinx_rtd_theme
 Summary:	Sphinx theme for readthedocs.org
 Version:	3.1.0
-Release:	1
+Release:	2
 Group:		Development/Python
 License:	MIT AND Apache-2.0 AND OFL-1.1
 URL:		https://github.com/readthedocs/sphinx_rtd_theme
